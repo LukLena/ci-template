@@ -1,0 +1,33 @@
+{
+  "name": "ci-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukLena/ci-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukLena/ci-template/issues"
+  },
+  "homepage": "https://github.com/LukLena/ci-template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "eslint": "^8.50.0",
+    "eslint-plugin-react": "^7.33.2",
+    "jest": "^29.7.0",
+    "jest-babel": "^1.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.32.2",
+    "save-dev": "^0.0.1-security"
+  }
+}
